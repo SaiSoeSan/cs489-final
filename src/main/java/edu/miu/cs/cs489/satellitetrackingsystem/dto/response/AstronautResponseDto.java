@@ -6,5 +6,6 @@ public record AstronautResponseDto(
         Long id,
         String firstName,
         String lastName,
+        Integer experienceYears,
         List<Long> satelliteIds // List of Satellite IDs associated with the astronaut
 ) {}
